@@ -1,4 +1,5 @@
 //Through Abstract Class
+//Abstract class consist of Abstarct methods and concrete methods
 
 abstract class Animal{
     abstract void sound();
