@@ -15,6 +15,9 @@ class Dog extends Animal{
 }
 interface Payment{
     void pay();
+    static void info(){//static method can be called w/o making obejct of that class
+        System.out.println("Payment Done by user");
+    }
 }
 class UPI implements Payment{
     public void pay(){
@@ -30,5 +33,6 @@ public class Abstraction{
 
         Payment p=new UPI();
         p.pay();
+        Payment.info();//Called directly using the interface name 
     }
 }
