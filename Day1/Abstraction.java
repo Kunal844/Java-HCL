@@ -36,3 +36,4 @@ public class Abstraction{
         Payment.info();//Called directly using the interface name 
     }
 }
+//Functional Interface -> Only 1 abstract method . 
