@@ -18,5 +18,14 @@ public class Main{
         //to delete an element using the exact name
         names.remove("rahul");
         System.out.println("Names after second removal"+names);
+
+        names.add("rahul");
+        names.add("priya");
+        //Updating a value
+        names.set(2,"Khyati");
+        
+
+        System.out.println("Names after setting a value"+names);
+        System.out.println(names.size());
     }
 }
