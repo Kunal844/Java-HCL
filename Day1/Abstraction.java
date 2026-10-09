@@ -31,7 +31,7 @@ public class Abstraction{
         d.sound();
         d.sleep();
 
-        Payment p=new UPI();
+        UPI p=new UPI();
         p.pay();
         Payment.info();//Called directly using the interface name 
     }
