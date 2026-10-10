@@ -13,5 +13,6 @@ public class Mapclass{
         System.out.println(m);
         System.out.println(m.containsKey(4));
         Sytem.out.println(m.containsValue("A"));
+        System.out.println(m.size());
     }
 }
