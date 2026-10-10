@@ -42,6 +42,7 @@ public class Task{
             System.out.println(s.name+" "+s.roll+" "+s.age+" "+s.marks);
         }
         list.sort(Comparator.comparingInt((Student s) -> s.age).reversed());
+        
         System.out.println("After sorting by age:");
         for(Student s:list){
             System.out.println(s.name+" "+s.roll+" "+s.age+" "+s.marks);
